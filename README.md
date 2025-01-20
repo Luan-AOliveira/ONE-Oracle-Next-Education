@@ -7,7 +7,9 @@ O ONE é um programa de educação e empregabilidade com objetivo social de capa
 
 
 Formações e Conteúdos
+
 Conteúdos Iniciais
+
 Lógica de Programação: Você vai aprender como criar programas simples, contando com Engenharia de Prompts com IA.
 
 Desenvolvimento Pessoal: Vamos trabalhar desde a sua mudança de mentalidade para o alto desempenho até as suas habilidades de discursar em público.

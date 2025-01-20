@@ -6,14 +6,26 @@ A tecnologia é para todos
 O ONE é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras. 
 
 
-Fase 1: Inscrição
-O primeiro passo para quem tem interesse em concorrer a uma bolsa no ONE é se inscrever pelo site do programa.
+Formações e Conteúdos
+Conteúdos Iniciais
+Lógica de Programação: Você vai aprender como criar programas simples, contando com Engenharia de Prompts com IA.
 
-Fase 2: Seleção
-Ao se inscreverem, os candidatos ganham acesso à plataforma do ONE por dois meses para conhecerem a metodologia do programa e finalizarem as primeiras formações em Lógica de Programação, curso de Prompt Engineering aplicado a Programação, junto com Desenvolvimento Pessoal.
+Desenvolvimento Pessoal: Vamos trabalhar desde a sua mudança de mentalidade para o alto desempenho até as suas habilidades de discursar em público.
 
-Fase 3: Tech Foundation
-Nessa etapa, os candidatos se tornam alunos do ONE e seguem os próximos meses estudando Back-End ou Data Science com IA, junto às Soft Skills.
+Tech Foundation
+Empreendedorismo, Protagonismo e Agilidade na Carreira: Explore conteúdos centrados no desenvolvimento de carreira, com temas como empreendedorismo, agilidade empresarial e protagonismo profissional.
 
-Fase 4: Tech Advanced + AlumniONE
-Depois de aprenderem os fundamentos, os estudantes fazem uma prova para determinar a continuidade para o Tech Advanced, onde vão estudar trilhas Oracle e depois terão acesso à comunidade de ex-alunos, AlumniONE, com benefícios exclusivos.
+Back-End + AI: Você aprenderá sobre Java e Spring Framework, dando seus primeiros passos com Java, uma linguagem de programação orientada a objetos, e conhecer a estrutura facilitadora das aplicações Java que ajuda na otimização do trabalho de desenvolvimento.
+
+Data Science + AI: Você aprenderá sobre fundamentos em dados, incluindo modelagem, SQL e manipulação em Python, construindo uma base sólida para análise de dados e utilização de inteligência artificial.
+
+Tech Advanced
+OCI – Oracle Cloud Infrastructure: Conceitos de computação em nuvem e bancos de dados, configurando redes, balanços de carga e infraestrutura como código para hospedar aplicações e páginas estáticas na Oracle Cloud.
+
+MySQL: Os estudantes aprenderão a instalar, configurar e manipular bancos de dados MySQL, criando tabelas, relacionamentos, consultas e relatórios avançados. Desenvolverão projetos práticos, utilizando triggers, stored procedures e otimização de desempenho.
+
+Inteligência Artificial: Criação de landing pages e copywriting com inteligência artificial, a desenvolvimento de modelos de IA automatizados para soluções empresariais, a automatização de tarefas em planilhas e armazenamento de arquivos.
+
+AlumniONE
+Os graduados terão acesso a benefícios exclusivos como o EmpregaONE, um hub de vagas de empresas parceiras, e como o Carrer Up, uma série de eventos sobre soft skills promovida pela FIAP – Faculdade de Informática e Administração Paulista.
+

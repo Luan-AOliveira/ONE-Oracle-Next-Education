@@ -120,3 +120,66 @@ if (idadecomparar > 18 && possuiCarteira) {
 
 // Desafio 11
 
+console.log("Boas-Vindas");
+
+let nomes = "Luan";
+console.log(nomes);
+alert("Olá, " + nomes);
+
+
+let programa = prompt("Qual é o seu programa favorito?");
+console.log(programa);
+
+
+let valor1 = 10;
+let valor2 = 20;
+let resultado = valor1 + valor2;
+console.log("A soma de " + valor1 + " e " + valor2 + " é igual a " + resultado);
+
+
+let resultado2 = valor1 - valor2;
+console.log("A subtração de " + valor1 + " e " + valor2 + " é igual a " + resultado2);
+
+
+let Idade = parseInt(prompt("Qual é a sua idade?"));
+if (Idade >= 18) {
+  console.log("Você já pode dirigir!");
+} else {
+  console.log("Você ainda não pode dirigir!");
+}
+
+
+let Number = parseInt(prompt("Digite um número"));
+if (Number >= 0) {
+  console.log("Número positivo");
+} else {
+  console.log("Número negativo");
+}
+
+contador = 0
+while (contador <= 10) {
+  console.log(contador);
+  contador++;
+}
+
+
+let nota = parseInt(prompt("Digite a sua nota"));
+if (nota >= 7) {
+  console.log("Aprovado");
+} else {  
+  console.log("Reprovado");
+}
+
+
+let gerarNumero1 = Math.random();
+console.log(gerarNumero1);
+
+let gerarNumero2 = parseInt(Math.random() * 10 + 1);
+console.log(gerarNumero2);
+
+let gerarNumero3 = parseInt(Math.random() * 100 + 1);
+console.log(gerarNumero3);
+
+
+// Desafio 12
+

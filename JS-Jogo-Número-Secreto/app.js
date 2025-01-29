@@ -11,6 +11,7 @@ paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
 */
 
 let numeroSecreto = gerarNumeroAleatorio();
+let tentativas = 1;
 
 
 // Criando uma função para reutilizar várias vezes sem precisar toda vez criar como no código acima
@@ -19,17 +20,55 @@ function exibirTextoNaTela(tag, texto) {
     campo.innerHTML = texto;
 }
 
-exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+
+function exibirMensagemInicial() {
+    exibirTextoNaTela('h1', 'Jogo do Número Secreto');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+}
 
 
 // Definindo uma função para verificar o chute do jogador
 function verificarChute() {
     let chute = document.querySelector('input').value;
-    console.log(chute == numeroSecreto);
+    
+    if (chute == numeroSecreto) {
+        exibirTextoNaTela('h1', 'Acertou!');
+        let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+        let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
+        exibirTextoNaTela("p", mensagemTentativas);
+        document.getElementById('reiniciar').removeAttribute('disabled');
+    } else {
+            if (chute > numeroSecreto) {
+                    exibirTextoNaTela('p', 'O número secreto é menor');
+            } else {
+                    exibirTextoNaTela('p', 'O número secreto é maior');
+            }
+            tentativas++;
+            limparCampo();
+    }
 }
 
 // Definindo uma função para gerar um número aleatório entre 1 e 10
 function gerarNumeroAleatorio() {
     return parseInt(Math.floor(Math.random() * 10) + 1);
 }
+
+
+// Definindo uma função para limpar o campo de entrada
+
+function limparCampo() {
+    chute = document.querySelector('input');
+    chute.value = '';
+}
+
+
+// Definindo uma função para reiniciar o jogo
+function reiniciarJogo() {
+    numeroSecreto = gerarNumeroAleatorio(); 
+    limparCampo(); 
+    tentativas = 1;
+    exibirMensagemInicial();
+    document.getElementById('reiniciar').setAttribute('disabled', true);
+}
+
+exibirMensagemInicial();

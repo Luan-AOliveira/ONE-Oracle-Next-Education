@@ -50,8 +50,8 @@ Você pode acessar a aplicação diretamente através do seguinte link:
 ├── style.css          # Estilos da aplicação
 ├── app.js             # Lógica do sorteio, manipulação de eventos e do DOM
 └── assets/            # Pasta com imagens e ícones utilizados na aplicação
+```
 
-Considerações Finais
+## Considerações Finais
+
 Este projeto representa um marco importante no meu desenvolvimento pessoal e profissional. Participar deste primeiro desafio foi uma experiência transformadora, onde pude aplicar conhecimentos em HTML, CSS e JavaScript, além de aprender a importância de uma boa organização através do Trello. Trabalhar em parceria com grandes nomes como Oracle e Alura não só elevou o nível do projeto, mas também reforçou a relevância de buscar a excelência e a inovação no desenvolvimento de soluções digitais. Este desafio foi fundamental para expandir minhas habilidades e consolidar minha paixão pela programação, abrindo portas para novos aprendizados e oportunidades na área da tecnologia.
-
-Sinta-se à vontade para explorar, utilizar e aprimorar este projeto. A jornada de aprendizado nunca termina, e cada desafio é uma oportunidade de crescer. Obrigado por visitar e espero que se inspire tanto quanto eu!
